@@ -43,6 +43,7 @@ This section highlights some of the key user interface elements and features of 
 </table>
 
 **2. Swipe-to-Refresh & Feedback**
+
 Users can easily update the movie list, with clear visual cues during the process:
 <table width="100%">
   <tr>
@@ -60,6 +61,7 @@ Users can easily update the movie list, with clear visual cues during the proces
 </table>
 
 **3. Incremental Loading & Error Handling**
+
 The app seamlessly handles loading more data and potential errors during scrolling:
 <table width="100%">
   <tr>
