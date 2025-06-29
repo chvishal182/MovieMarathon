@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie Marathon</string>
+    <string name="network_status_description">Network Status</string>
+    <string name="no_internet_connection_details">Trouble connecting to the internet. Some features may be unavailable.</string>
+</resources>

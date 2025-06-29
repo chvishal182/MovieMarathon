@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="movie"
+            type="com.chelv.moviemarathon.model.dataentities.Movie" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:cardCornerRadius="4dp"
+        android:elevation="4dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/defaultmovie" />
+
+        <ImageView
+            android:id="@+id/imageViewMovie"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"/>
+
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:background="#DD03DAC6"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/white"
+            android:text="TextView" />
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
