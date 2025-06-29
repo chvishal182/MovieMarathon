@@ -1,4 +1,4 @@
-<img width="254" alt="image" src="https://github.com/user-attachments/assets/7db04239-98c9-41d1-b013-e1fc464474c6" /># Movie Marathon
+# Movie Marathon
 
 Movie Marathon is a dynamic and responsive Android application designed for users 
 to effortlessly discover and browse an extensive library of movies.
