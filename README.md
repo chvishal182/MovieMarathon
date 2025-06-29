@@ -1,3 +1,5 @@
+# Movie Marathon
+
 Movie Marathon is a dynamic and responsive Android application designed for users 
 to effortlessly discover and browse an extensive library of movies.
 Built with modern Android development practices, it offers a smooth user experience with features like 
