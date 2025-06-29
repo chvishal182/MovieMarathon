@@ -22,31 +22,77 @@ The app fetches movie data from The Movie Database (TMDB) API.
     *   Handles empty states gracefully if no movies are available.
 *   **Efficient Data Handling:** Optimized for performance and reduced memory usage when dealing with large datasets.
 
-## Screenshots
+## Screenshots & Features Showcase
 
-*   *Screenshot of the primary loading page.*
-*   <img src="https://github.com/user-attachments/assets/e586328f-949b-4ecf-971e-1e327963168b" alt="Primary Loading Screen" width="257"/>
+This section highlights some of the key user interface elements and features of Movie Marathon.
 
-*   *Screenshot of the main Movie List Page.*
-*   <img src="https://github.com/user-attachments/assets/335cd732-1e68-4a10-9ee6-08ed7eb1458c" alt="Main Movie List Page" width="257"/>*
+**1. Initial Load & Main Display**
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/e586328f-949b-4ecf-971e-1e327963168b" alt="Primary Loading Screen" width="250"/>
+      <br />
+      <em>App prominently displays a loading indicator during the initial data fetch.</em>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/335cd732-1e68-4a10-9ee6-08ed7eb1458c" alt="Main Movie List Page" width="250"/>
+      <br />
+      <em>Movies are displayed in a clean, scrollable list once data is available.</em>
+    </td>
+  </tr>
+</table>
 
-*   *Screenshot of the reloading the Movie List Page.*
-*   <img src="https://github.com/user-attachments/assets/b04f3b9c-09d6-42ac-973d-66dd6547105e" alt="Reload Movie List Page" width="257"/>*
-*   <img src="https://github.com/user-attachments/assets/5184e8d4-e10a-4d6b-af05-a9b760e1c637" alt="Toast after a successful reload" width="257"/>*
+**2. Swipe-to-Refresh & Feedback**
+Users can easily update the movie list, with clear visual cues during the process:
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/b04f3b9c-09d6-42ac-973d-66dd6547105e" alt="Reloading Movie List Page" width="250"/>
+      <br />
+      <em>Visual feedback (dimmed content) while the movie list is being refreshed.</em>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/5184e8d4-e10a-4d6b-af05-a9b760e1c637" alt="Toast after a successful reload" width="250"/>
+      <br />
+      <em>A confirmation Toast message ("Fresh movies brewed!") appears after a successful refresh.</em>
+    </td>
+  </tr>
+</table>
 
-*   *Screenshot showing the statefulness of Movie List being fetched.*
-*   <img src="https://github.com/user-attachments/assets/d6e08960-a42c-4a52-bd41-dbe493488297" alt="Main Movie List Page" width="257"/>*
+**3. Incremental Loading & Error Handling**
+The app seamlessly handles loading more data and potential errors during scrolling:
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/d6e08960-a42c-4a52-bd41-dbe493488297" alt="Loading more movies indicator" width="250"/>
+      <br />
+      <em>A subtle loading indicator at the list's end signals more movies are being fetched on scroll.</em>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/da2cc5f9-e885-4c6a-b87e-e026358ffdfb" alt="Retry button with error message" width="250"/>
+      <br />
+      <em>Handles load failures gracefully by showing an error message and a retry option.</em>
+    </td>
+  </tr>
+</table>
 
-*   *Screenshot showing the retry button along with the reason of the failure while scrolling.*
-*   <img src="https://github.com/user-attachments/assets/da2cc5f9-e885-4c6a-b87e-e026358ffdfb" alt="Main Movie List Page" width="257"/>*
 
-*   *Screenshot showing the retry button along with the reason of the failure while scrolling.*
-*   <img src="https://github.com/user-attachments/assets/da2cc5f9-e885-4c6a-b87e-e026358ffdfb" alt="Main Movie List Page" width="257"/>*
-
-
-*   *Screenshot of the Internet Status Signifier icon and its expanded message.*
-*   <img src="https://github.com/user-attachments/assets/c8a7cbd3-677f-4453-bf66-b42d08a26023" alt="Internert Status Signifier" width="257"/>*
-*   <img src="https://github.com/user-attachments/assets/1183490e-04b6-4817-b0fb-9542773c7b77" alt="Expanded message" width="257"/>*
+**4. Real-time Internet Status**
+Provides clear, persistent feedback about network connectivity:
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/c8a7cbd3-677f-4453-bf66-b42d08a26023" alt="Internet Status Signifier Icon" width="250"/>
+      <br />
+      <em>Icon indicating network is offline.</em>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/1183490e-04b6-4817-b0fb-9542773c7b77" alt="Expanded Network Status Message" width="250"/>
+      <br />
+      <em>Expanded message on tapping the icon.</em>
+    </td>
+  </tr>
+</table>
 
 
 
