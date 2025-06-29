@@ -78,6 +78,7 @@ The app seamlessly handles loading more data and potential errors during scrolli
 
 
 **4. Real-time Internet Status**
+
 Provides clear, persistent feedback about network connectivity:
 <table width="100%">
   <tr>
