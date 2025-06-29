@@ -1,4 +1,4 @@
-# Movie Marathon
+<img width="254" alt="image" src="https://github.com/user-attachments/assets/7db04239-98c9-41d1-b013-e1fc464474c6" /># Movie Marathon
 
 Movie Marathon is a dynamic and responsive Android application designed for users 
 to effortlessly discover and browse an extensive library of movies.
@@ -28,11 +28,12 @@ The app fetches movie data from The Movie Database (TMDB) API.
 
 This section highlights some of the key user interface elements and features of Movie Marathon.
 
+
 **1. Initial Load & Main Display**
 <table width="100%">
   <tr>
     <td align="center" valign="top">
-      <img src="https://github.com/user-attachments/assets/e586328f-949b-4ecf-971e-1e327963168b" alt="Primary Loading Screen" width="250"/>
+      <img src="https://github.com/user-attachments/assets/2ace61df-d2af-434e-95d1-5de538d20321" alt="Primary Loading Screen" width="250"/>
       <br />
       <em>App prominently displays a loading indicator during the initial data fetch.</em>
     </td>
