@@ -33,7 +33,7 @@ This section highlights some of the key user interface elements and features of 
 <table width="100%">
   <tr>
     <td align="center" valign="top">
-      <img src="https://github.com/user-attachments/assets/2ace61df-d2af-434e-95d1-5de538d20321" alt="Primary Loading Screen" width="250"/>
+      <img src="https://github.com/user-attachments/assets/03438200-59cd-41cd-a833-e4bfc04f4fa7" alt="Primary Loading Screen" width="250"/>
       <br />
       <em>App prominently displays a loading indicator during the initial data fetch.</em>
     </td>
@@ -51,7 +51,7 @@ Users can easily update the movie list, with clear visual cues during the proces
 <table width="100%">
   <tr>
     <td align="center" valign="top">
-      <img src="https://github.com/user-attachments/assets/b04f3b9c-09d6-42ac-973d-66dd6547105e" alt="Reloading Movie List Page" width="250"/>
+      <img src="https://github.com/user-attachments/assets/2ace61df-d2af-434e-95d1-5de538d20321" alt="Reloading Movie List Page" width="250"/>
       <br />
       <em>Visual feedback (dimmed content) while the movie list is being refreshed.</em>
     </td>
