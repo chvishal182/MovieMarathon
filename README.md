@@ -27,7 +27,7 @@ The app fetches movie data from The Movie Database (TMDB) API.
 This section highlights some of the key user interface elements and features of Movie Marathon.
 
 **1. Initial Load & Main Display**
-<table>
+<table width="100%">
   <tr>
     <td align="center" valign="top">
       <img src="https://github.com/user-attachments/assets/e586328f-949b-4ecf-971e-1e327963168b" alt="Primary Loading Screen" width="250"/>
@@ -44,7 +44,7 @@ This section highlights some of the key user interface elements and features of 
 
 **2. Swipe-to-Refresh & Feedback**
 Users can easily update the movie list, with clear visual cues during the process:
-<table>
+<table width="100%">
   <tr>
     <td align="center" valign="top">
       <img src="https://github.com/user-attachments/assets/b04f3b9c-09d6-42ac-973d-66dd6547105e" alt="Reloading Movie List Page" width="250"/>
@@ -61,7 +61,7 @@ Users can easily update the movie list, with clear visual cues during the proces
 
 **3. Incremental Loading & Error Handling**
 The app seamlessly handles loading more data and potential errors during scrolling:
-<table>
+<table width="100%">
   <tr>
     <td align="center" valign="top">
       <img src="https://github.com/user-attachments/assets/d6e08960-a42c-4a52-bd41-dbe493488297" alt="Loading more movies indicator" width="250"/>
@@ -79,7 +79,7 @@ The app seamlessly handles loading more data and potential errors during scrolli
 
 **4. Real-time Internet Status**
 Provides clear, persistent feedback about network connectivity:
-<table>
+<table width="100%">
   <tr>
     <td align="center" valign="top">
       <img src="https://github.com/user-attachments/assets/c8a7cbd3-677f-4453-bf66-b42d08a26023" alt="Internet Status Signifier Icon" width="250"/>
